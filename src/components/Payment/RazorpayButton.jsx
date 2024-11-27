@@ -16,7 +16,7 @@ const RazorpayButton = ({ amount, itemId, itemName, onSuccess }) => {
       const { data: order } = await api.post('/payment/create-order', { amount });
 
       const options = {
-        key: process.env.RAZORPAY_KEY_ID,
+        key:  'rzp_test_VTeHEBn3aNjFQV' ||  process.env.RAZORPAY_KEY_ID,
         amount: order.amount,
         currency: 'INR',
         name: 'Skinsify',

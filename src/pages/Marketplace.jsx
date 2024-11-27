@@ -17,11 +17,11 @@ const Marketplace = () => {
     const fetchData = async () => {
       try {
         setLoading(true);
-        // Initialize demo data if needed
+       
         await api.post('/games/init');
         await api.post('/items/init');
         
-        // Fetch games and items
+      
         const [gamesRes, itemsRes] = await Promise.all([
           api.get('/games'),
           api.get('/items', {
@@ -47,7 +47,7 @@ const Marketplace = () => {
 
   const handleSearch = (e) => {
     e.preventDefault();
-    // Search is handled by useEffect
+    
   };
 
   const handleGameSelect = (game) => {
