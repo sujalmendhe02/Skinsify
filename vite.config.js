@@ -12,6 +12,9 @@ export default defineConfig({
         ws: true
       }
     },
+    build: {
+      outDir: 'build',
+    },
     port: 3000,
     host: true
   }
