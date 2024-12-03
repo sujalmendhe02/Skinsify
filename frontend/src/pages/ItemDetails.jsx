@@ -92,11 +92,11 @@ const ItemDetails = () => {
                   <p className="text-white font-semibold">{item.rarity}</p>
                 </div>
                 <div>
-                  <p className="text-gray-400">Condition</p>
+                  <p className="text-gray-400"></p>
                   <p className="text-white font-semibold">{item.condition}</p>
                 </div>
                 <div>
-                  <p className="text-gray-400">Listed</p>
+                  <p className="text-gray-400"></p>
                   <p className="text-white font-semibold">{item.listed}</p>
                 </div>
               </div>
@@ -105,7 +105,7 @@ const ItemDetails = () => {
                 <div className="flex items-center justify-between mb-6">
                   <div>
                     <p className="text-gray-400">Price</p>
-                    <p className="text-white font-semibold">{item.price} USD</p>
+                    <p className="text-white font-semibold">{item.price} Rs</p>
                   </div>
                   <div className="border-t border-gray-700 py-6">
                     <div className="flex items-center justify-between mb-6">
