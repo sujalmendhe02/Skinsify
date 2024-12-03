@@ -2,7 +2,7 @@ import axios from 'axios';
 import toast from 'react-hot-toast';
 
 const api = axios.create({
-  baseURL: '/api',
+  baseURL: 'https://skinsify-backend.onrender.com/api',
   headers: {
     'Content-Type': 'application/json',
   },
