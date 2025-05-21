@@ -81,4 +81,8 @@ Contributions are welcome! Feel free to submit issues and pull requests.
 ## Screenshots
 
 ![Screenshot](https://drive.google.com/uc?export=view&id=1rS03Twt-U3LePUuoSlV953LutPHQ4MBW)
+![Screenshot](https://drive.google.com/uc?export=view&id=1n4Ml0bgbj5WyksclxQV2suiBNOeVqvy5)
+![Screenshot](https://drive.google.com/uc?export=view&id=1kDK0Gvo7adlCfMcww1q3Ez9jbLnBHNh2)
+![Screenshot](https://drive.google.com/uc?export=view&id=1qXHENalgpAJ5dQ0tnCr6szGL0xZf68-u)
+
 
